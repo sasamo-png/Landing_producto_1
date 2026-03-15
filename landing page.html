@@ -114,6 +114,19 @@
   .footer{background:#880e4f;padding:20px 24px;text-align:center}
   .footer p{font-size:11px;color:#f8bbd0;line-height:1.8}
   .footer a{color:#ffcdd2;text-decoration:underline}
+
+  /* MEDIA QUERIES PARA MÓVILES */
+  @media (max-width: 480px) {
+    .hero h1 { font-size: 26px; }
+    .hero-sub { font-size: 14px; }
+    .price-main { font-size: 44px; }
+    .trust-bar { flex-wrap: wrap; border-bottom: none; }
+    .trust-item { flex: 1 1 40%; border-bottom: 1px solid #fce4ec; border-right: none; padding: 10px 4px; }
+    .transform-grid { grid-template-columns: 1fr; }
+    .section, .section-alt { padding: 24px 16px; }
+    .cta-btn, .cta-btn-full { font-size: 15px; padding: 16px 20px; }
+    .cta-btn { width: calc(100% - 32px); }
+  }
 </style>
 </head>
 <body>
